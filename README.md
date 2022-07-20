@@ -5,6 +5,6 @@ Nemuri is a continuation of another project of mine destined to help me save som
 ### How to use it?
 
 ```
-git clone https://github.com/talialy/nemuri
+git clone https://github.com/talialy/Nemuri
 cd nemuri
 ```
