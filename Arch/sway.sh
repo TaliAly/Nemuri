@@ -1,7 +1,6 @@
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-
 blue=$(tput setaf 4)
-green=$(tput setaf 2)
 normal=$(tput sgr0)
 
 alias ins="sudo pacman -S --needed"
@@ -39,3 +38,5 @@ printf "${blue}Desktop Apps \n${normal}     rofi alacritty pcmanfm dunst firefox
 printf "${blue}Things you want to have \n${normal}      ffmpegthumbnailer unzip zip unrar \n"
 
 notify-send "Hey!, this is done" || echo "Hey!, this is done"
+printf "Might wanna get the dotfiles :P \n"
+printf "${blue}https://github.com/talialy/dotfiles"
