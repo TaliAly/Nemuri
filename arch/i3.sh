@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ins=`sudo pacman -S --needed`
+alias ins="sudo pacman -S --needed"
 
 sudo pacman -Syu
 

@@ -7,4 +7,10 @@ Nemuri is a continuation of another project of mine destined to help me save som
 ```
 git clone https://github.com/talialy/Nemuri
 cd nemuri
+chmod +x nemuri.sh
+./nemuri.sh
 ```
+
+If you're using this, you might wanna see my dotfiles too, just in case you'll need something to already start with ;)
+
+[My Dotfiles](https://github.com/talialy/dotfiles)
