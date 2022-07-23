@@ -14,15 +14,19 @@ sudo sv down acpid
 sudo rm /var/service/acpid
 
 
-ins noto-fonts-emoji font-awesome5 fonts-droid-ttf font-hack-ttf font-firacode # fonts
+ins void-repo-multilib-nonfree void-repo-nonfree void-repo-multilib # nonfree repos & multilib
 
-ins htop ranger feh neofetch pfetch # terminal apps
+ins noto-fonts-emoji font-awesome5 fonts-droid-ttf font-hack-ttf font-firacode xorg-fonts # fonts
 
-ins rofi kitty pcmanfm dunst firefox chromium # Desktop apps
+ins htop ranger feh neofetch pfetch vim # terminal apps
+
+ins rofi kitty pcmanfm dunst firefox chromium xterm # Desktop apps
 
 ins ffmpegthumbnailer unzip zip unrar # things you would want to have
 
-ins lxappearance papirus-icon-theme breeze-snow-cursor-theme
+ins lxappearance papirus-icon-theme breeze-snow-cursor-theme # Personalization
+
+ins sway #Just sway
 
 sway -d
 
